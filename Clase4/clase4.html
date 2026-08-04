@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>My Table</caption>
+        <thead>
+            <tr>
+                <th>LLave</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universidad</td><td>UPB</td>
+            </tr>
+            <tr>
+                <td>Ciudad</td><td>La Paz</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <hr>
+    <form action="" method="post">
+        <label id="label-nombre" for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label id="label-correo" for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+        <input type="submit" value="Enviar">
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br>
+        <label for="fecha" >Nacimiento:</label>
+        <input type="date" id="fecha" name="fecha">
+        <label for="codigo" >Codigo:</label>
+        <input type="number" id="codigo" name="codigo" pattern="[0-9]{6}" maxlength="6" >
+    </form>
+</body>
+</html>
