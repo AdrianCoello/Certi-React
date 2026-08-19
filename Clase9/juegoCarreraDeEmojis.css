@@ -1,0 +1,23 @@
+.pista {
+    width: 24rem;
+    border: 2px solid #243447;;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.corredor {
+    border-bottom: 2px solid #B8C2CC;
+    padding: 0.5rem;
+    background-color: #F4F7FB;
+    height: 3rem;
+    font-size: 1.5rem;
+    transition: background-color 0.3s , padding-left 0.2s;
+}
+
+.corredor:hover {
+    background-color: #E0E7F1;
+    padding-left: 1rem;
+}
