@@ -8,3 +8,5 @@ jobs:
   steps:
 - name: Saludar 
   run: echo "Hola Mundo"
+- name: verificar eslint
+  run: npm run check:js
