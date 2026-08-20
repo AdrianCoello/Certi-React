@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Danilepez/CertificacionReact.git"
+    "url": "https://github.com/AdrianCoello/Certi-React.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Danilepez/CertificacionReact/issues"
+    "url": "https://github.com/AdrianCoello/Certi-React/issues"
   },
-  "homepage": "https://github.com/Danilepez/CertificacionReact#readme",
+  "homepage": "https://github.com/AdrianCoello/Certi-React#readme",
   "devDependencies": {
     "eslint": "^10.8.1",
     "eslint-js": "github:eslint/js",
